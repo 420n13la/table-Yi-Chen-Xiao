@@ -1,0 +1,32 @@
+body{
+	font-family: Arial;
+}
+tr, td, th{
+	border: 2px solid black;
+	padding: 10px;
+}
+caption{
+	text-align: center;
+	color: red;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 2px;
+}
+table{
+	border-collapse: collapse;
+}
+thead{
+	background-color: green;
+	color: white;
+}
+tfoot{
+	background-color: orange;
+	color: black;
+}
+tbody tr:nth-child(even) {
+  background-color: gold;
+}
+#red{
+	color: red;
+	text-align: right;
+}
